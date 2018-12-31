@@ -35,6 +35,7 @@ def combine():
                     print('List SORTED - {} '.format(emp_li))
                 else:
                     pass
+        print('***************************PASS TAKEN {} **********************'.format(pass_))
         pass_ = pass_ + 1
 
     print('Total swaps taken is {}  '.format(swap))
