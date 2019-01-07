@@ -10,13 +10,14 @@ def combine():
     for j in test_list2:
         emp_li.append(j)
 
-    print('Resultant List is {} '.format(emp_li))
+    #print('Resultant List is {} '.format(emp_li))
 
     '''
     #TEST DATA :
     emp_li = [5,2,6,7,3]
     '''
-    #emp_li = [5,2,6,7,3]
+    emp_li = [5,2,6,7,3]
+    print('Resultant List is {} '.format(emp_li))
     '''
     Sorting emp_li by implementing Bubble Sort Algorithm
     '''
@@ -37,8 +38,8 @@ def combine():
                     pass
         print('***************************PASS TAKEN {} **********************'.format(pass_))
         pass_ = pass_ + 1
-
     print('Total swaps taken is {}  '.format(swap))
+
 
 if __name__ == '__main__':
     combine()
