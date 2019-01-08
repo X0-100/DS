@@ -14,13 +14,14 @@ def combine():
     #TEST DATA :
     emp_li = [20,12,10,15,2]
     '''
+    '''
     emp_li = [20,12,10,15,2]
+    '''
     print('Resultant List is {} '.format(emp_li))
     '''
     Sorting emp_li by implementing Selection Sort Algorithm
     '''
     pass_ = 1
-    swap = 0
     while(pass_ < (len(emp_li)-1)):
         for i in range(len(emp_li)-1):
             for j in range(i, len(emp_li)):
