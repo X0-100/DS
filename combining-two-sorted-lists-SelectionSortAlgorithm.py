@@ -10,14 +10,8 @@ def combine():
         emp_li.append(i)
     for j in test_list2:
         emp_li.append(j)
-    '''
-    #TEST DATA :
-    emp_li = [20,12,10,15,2]
-    '''
-    '''
-    emp_li = [20,12,10,15,2]
-    '''
     print('Resultant List is {} '.format(emp_li))
+
     '''
     Sorting emp_li by implementing Selection Sort Algorithm
     '''
