@@ -1,2 +1,2 @@
-# A L G O R I T H M
-A L G O R I T H M
+# Scalabilty 
+To make code scalable I have been trying to write code that implements algorithms to search or sort
