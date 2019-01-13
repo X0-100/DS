@@ -1,2 +1,2 @@
-# KANYE-superpower
-This is the superpower of kanye
+# A L G O R I T H M
+A L G O R I T H M
