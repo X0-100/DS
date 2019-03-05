@@ -15,9 +15,10 @@ def combine():
     '''
     #TEST DATA :
     emp_li = [5,2,6,7,3]
-    '''
+    
     emp_li = [5,2,6,7,3]
     print('Resultant List is {} '.format(emp_li))
+    '''
     '''
     Sorting emp_li by implementing Bubble Sort Algorithm
     '''
