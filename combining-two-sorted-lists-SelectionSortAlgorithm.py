@@ -1,6 +1,6 @@
 '''
 This file combines two sorted lists using Selection Sort Algorithm
-== Implementation ==
+== Implementation finished==
 '''
 def combine():
     test_list1 = [1,5,6,9,11]
