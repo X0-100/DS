@@ -1,4 +1,5 @@
 #https://www.geeksforgeeks.org/python-ways-to-spilt-the-list-by-some-value/
+#Implementation
 
 
 list0 = []
@@ -9,7 +10,7 @@ li2 = []
 def insert_list():
     number = 5
     for x in range(0, number):
-        list0.append(raw_input('Enter in List     '))
+        list0.append(input('Enter in List     '))
       
 
 
