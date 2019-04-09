@@ -1,5 +1,6 @@
 '''
 This implements combining two sorted lists using Insertion Sort Algorithm
+******************Unfinished project
 '''
 def sort(li):
     pointer = 1
