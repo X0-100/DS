@@ -4,10 +4,36 @@
 # DESC(3) - Initial List of tuple is [[(‘Name’, 151)], [(‘ACe’, 400)], [(‘TURN’, 210)], [(‘RED’, 1113)], [(‘YELLOW’, 1)]]
 # DESC(4) - Top ‘K’ elements are [(‘RED’, 1113), (‘ACe’, 400), (‘TURN’, 210)]
 # Unfinished Implementation
+
+from collections import defaultdict
 def findK():
-    Input =[[('Name', 151)], [('ACe', 400)], 
-        [('TURN', 210)], [('RED', 1113)], 
-        [('YELLOW', 1)]] 
+    
+    inpu = [[('Name', 151)], [('ACe', 400)]]
+    emp_li = []
+    emp_tu = ()
+    dfi = defaultdict(list)
+
+    
+    for x in inpu:
+       
+        for y in x:
+           
+            for k, v in x:
+                dfi[k].append(v)
+                
+                for value in dfi[k]:
+                    print(value)
+                    
+                    
+                
+                    
+                
+                
+                
+
+                
+
+    
 
 
 
