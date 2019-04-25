@@ -1,37 +1,46 @@
-# CDAT - April-05-2019
+# CDAT - April-O5-06-2019
 # DESC(1) - Find top K frequent elements from a list of tuples
 # DESC(2) - Given a list of tuples with word as first element and its frequency as second element, the task is to find top k frequent element.
 # DESC(3) - Initial List of tuple is [[(‘Name’, 151)], [(‘ACe’, 400)], [(‘TURN’, 210)], [(‘RED’, 1113)], [(‘YELLOW’, 1)]]
 # DESC(4) - Top ‘K’ elements are [(‘RED’, 1113), (‘ACe’, 400), (‘TURN’, 210)]
-# Unfinished Implementation
-# [('Name', [151]), ('ACe', [400])]
+# Unfinished
 
-from collections import defaultdict
+import sys
 
 def findK():
     
-    inpu = [[('Name', 151)], [('ACe', 400)]]
+    input_li =[[('Name', 151)], [('ACe', 400)],]
+
     emp_li = []
-    emp_tu = ()
-    dfi = defaultdict(list)
-    cou = 0 
+    dict_ = {}
+    tup = ()
+
+
+    for x in input_li:
+        emp_li.append(x)
+        for y in x:
+            for z in y:
+                print(z)
+                dict_[z] = 0
+                print(dict_)
+        
+
 
     
-    for x in inpu:
-       for y in x:
-           for k, v in x:
-                dfi[k].append(v)
-                
-                
-    for key in dfi:
-        emp_li.append((key, (dfi[key])))
-        print(emp_li)
-        
-                    
-                    
-                
-                    
-                
-                
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
 if __name__ == '__main__':
     findK()
