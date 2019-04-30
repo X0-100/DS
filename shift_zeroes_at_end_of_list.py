@@ -15,14 +15,14 @@ def get():
         else:
             empty2.append(x)
 
-    print('empty1', '=', empty1)
-    print('empty2', '=', empty2)
+    print('empty1 list for appending zeroes only', '=', empty1)
+    print('empty2 for rest of others ', '=', empty2)
 
     for x in empty1:
         empty2.append(x)
 
 
-    print(empty2)
+    print('Modified List  ',empty2)
         
             
     
