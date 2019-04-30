@@ -4,7 +4,7 @@
 
 def get():
     
-    test_list = [1, 4, None, "Manjeet", False, 0, False, 0, "Nikhil"]
+    test_list = [1, 4, 0, 0, 0, None, "Manjeet", False, 0, False, 0, "Nikhil", True]
     empty1 = []
     empty2 = []
     final_list = []
