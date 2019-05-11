@@ -2,8 +2,7 @@
 # lst1 = [1,2,3]
 # lst2 = ['a','b','c']
 # output = [1,'a',2,'b',3,'c']
-# provided the two lists are of equal length
-
+# provided the two lists are of equal length(len)
 
 def process():
     lst1 = [1,2,3,4,5,6]
